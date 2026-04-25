@@ -1,14 +1,13 @@
 ## Script R - Parte 3 - Thiago Menezes
 
-## 1) Importação do conjunto de dados “dataset_st_cenarios” no RStudio:
-
-library(readxl)
-
-dataset_st_cenarios <- read_excel("dataset_st_cenarios.xlsx")
-head(dataset_st_cenarios)
+## 1) Importação do conjunto de dados “dataset_st_cenarios” no RStudio (Se importou o dataset no RStudio, pule esta etapa:
+#library(readxl)
+#dataset_st_cenarios <- read_excel("dataset_st_cenarios.xlsx")
+#head(dataset_st_cenarios)
 
 
 ## 2) Conversão dos dados para em um objeto tsibble:
+#primeiro instale os pacotes e depois os carregue.
 
 install.packages("dplyr")
 install.packages("tsibble")
