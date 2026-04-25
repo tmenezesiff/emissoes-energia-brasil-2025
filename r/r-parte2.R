@@ -6,7 +6,7 @@
 #head(dataset_st)
 
 ## 2) Conversão dos dados para em um objeto tsibble:
-
+#primeiro instale os pacotes e depois os carregue.
 install.packages("dplyr")
 install.packages("tsibble")
 install.packages("fabletools")
