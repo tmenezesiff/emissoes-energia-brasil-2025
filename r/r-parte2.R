@@ -1,11 +1,9 @@
 ## Script R - Parte 2 - Thiago Menezes (ajuste para estilo do python)
 
-## 1) Importação do conjunto de dados “dataset_st” no RStudio.	
-
-library(readxl)
-
-dataset_st <- read_excel("dataset_st.xlsx")
-head(dataset_st)
+## 1) Importação do conjunto de dados “dataset_st” no RStudio (pule esta etapa, caso tenha importado no RStudio.	
+#library(readxl)
+#dataset_st <- read_excel("dataset_st.xlsx")
+#head(dataset_st)
 
 ## 2) Conversão dos dados para em um objeto tsibble:
 
